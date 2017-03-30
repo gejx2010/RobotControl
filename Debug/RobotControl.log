@@ -1,0 +1,469 @@
+﻿生成启动时间为 2016/12/28 12:05:04。
+     1>项目“C:\Users\robot\Desktop\RobotControl 7.22-手柄控制模型和机械臂--乐\RobotControl.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\RobotControl.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Debug\RobotControl.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\RobotControl.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\RobotControl.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AutoPlanSetDlg.cpp CtrlTab.cpp HandControlDlg.cpp InitHardware.cpp LinerPlanSetDlg.cpp MainFrm.cpp PathPlanDlg.cpp RobotControl.cpp RobotControlDoc.cpp RobotControlMultiDoc.cpp RobotControlView.cpp sidebar.cpp
+         sidebar.cpp
+         RobotControlView.cpp
+         RobotControlMultiDoc.cpp
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontrolmultidoc.cpp(208): warning C4244: “参数”: 从“LONG”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontrolmultidoc.cpp(137): warning C4101: “hOldFont”: 未引用的局部变量
+         RobotControlDoc.cpp
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(37): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(223): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(248): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(272): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(315): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(318): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(320): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(343): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(346): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(348): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(371): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(374): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(376): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(399): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(402): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(404): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(427): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(430): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(432): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(455): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(458): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(460): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(483): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(486): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(488): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(511): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(514): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(516): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(539): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(542): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(544): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(567): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(570): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(572): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(595): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(598): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(600): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(719): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(757): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(785): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(787): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(787): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(787): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(791): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(797): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(797): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(797): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(812): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(812): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(812): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(836): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(836): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(836): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(854): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(854): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(854): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(873): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(873): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(873): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(884): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(884): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(887): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(887): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(887): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(906): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(906): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(909): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(909): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(909): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(923): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(923): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(923): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(941): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(941): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(941): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(952): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(952): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(955): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(955): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(955): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(974): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(974): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(976): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(976): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(976): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(988): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(990): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(990): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(990): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1008): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1008): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1008): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1019): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1019): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1022): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1022): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1022): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1041): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1041): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1041): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1043): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1092): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1092): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1092): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1096): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1098): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1098): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1098): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1100): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1102): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1102): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1102): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1104): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1106): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1108): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1110): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1112): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1114): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1116): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1118): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1125): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1127): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1129): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1131): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1133): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1135): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1155): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1155): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1155): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1161): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1161): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1086): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1261): warning C4244: “参数”: 从“LONG”转换到“GLfloat”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontroldoc.cpp(1190): warning C4101: “hOldFont”: 未引用的局部变量
+         RobotControl.cpp
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\robotcontrol.cpp(60): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : 参见“CWinApp::Enable3dControls”的声明
+         PathPlanDlg.cpp
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(32): warning C4005: “PI”: 宏重定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\dynamic_spacerobot.h(10) : 参见“PI”的前一个定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(46): warning C4101: “lParam”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(46): warning C4101: “btnNum”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(46): warning C4101: “message”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(46): warning C4101: “wParam”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(129): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(139): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(149): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(159): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(169): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(179): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(189): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(199): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(547): warning C4996: '_gcvt': This function or variable may be unsafe. Consider using _gcvt_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(729) : 参见“_gcvt”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(548): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(553): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(555): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(559): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(561): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(589): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(589): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(589): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(591): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(591): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(591): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(593): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(593): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(593): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(595): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(595): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(595): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(597): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(597): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(597): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(599): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(599): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(599): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(601): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(601): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(601): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(624): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(676): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(676): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(716): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(717): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(718): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(720): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(721): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(722): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(852): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(929): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(971): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(971): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(971): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(998): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1006): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1014): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1022): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1030): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1038): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1046): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(786): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1072): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1109): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1110): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1111): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1112): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1113): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1114): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1115): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1116): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1123): warning C4101: “petemp”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1242): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1272): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1273): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1284): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1364): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1415): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1415): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1415): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1419): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1505): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1530): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1539): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1542): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\pathplandlg.cpp(1526): warning C4101: “PEI”: 未引用的局部变量
+         MainFrm.cpp
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\mainfrm.cpp(59): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\mainfrm.cpp(35): warning C4101: “data_str”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\mainfrm.cpp(68): warning C4101: “ceta”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\mainfrm.cpp(69): warning C4101: “j”: 未引用的局部变量
+         LinerPlanSetDlg.cpp
+         InitHardware.cpp
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(21): warning C4005: “PI”: 宏重定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\dynamic_spacerobot.h(10) : 参见“PI”的前一个定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(193): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(199): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(203): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(205): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(218): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(222): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(224): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(241): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(248): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(253): warning C4129: “8”: 不可识别的字符转义序列
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(264): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(265): warning C4996: '_gcvt': This function or variable may be unsafe. Consider using _gcvt_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(729) : 参见“_gcvt”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(266): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(281): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(282): warning C4996: '_gcvt': This function or variable may be unsafe. Consider using _gcvt_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(729) : 参见“_gcvt”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(283): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(303): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(305): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(309): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(278): warning C4101: “velocity”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(347): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(350): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(351): warning C4996: '_gcvt': This function or variable may be unsafe. Consider using _gcvt_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(729) : 参见“_gcvt”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(352): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(373): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(375): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(379): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(381): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(820): warning C4101: “retval”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(843): warning C4101: “retval”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(867): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(917): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\inithardware.cpp(921): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         HandControlDlg.cpp
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(23): warning C4005: “PI”: 宏重定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\dynamic_spacerobot.h(10) : 参见“PI”的前一个定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(131): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(303): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(303): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(303): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(305): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(305): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(349): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(349): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(349): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(351): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(351): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(352): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(352): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(354): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(354): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(354): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(356): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(356): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(298) : 忽略“i”的定义
+                 c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(284) : 使用“i”的定义
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(432): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(433): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(434): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(435): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(436): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(437): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(438): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(439): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(446): warning C4101: “petemp”: 未引用的局部变量
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(494): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(496): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(500): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(502): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(604): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(615): warning C4996: '_gcvt': This function or variable may be unsafe. Consider using _gcvt_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(729) : 参见“_gcvt”的声明
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(616): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+         CtrlTab.cpp
+         AutoPlanSetDlg.cpp
+         正在生成代码...
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(419): warning C4715: “HandControl”: 不是所有的控件路径都返回值
+     1>c:\users\robot\desktop\robotcontrol 7.22-手柄控制模型和机械臂--乐\handcontroldlg.cpp(415): warning C4700: 使用了未初始化的局部变量“VelValue”
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\RobotControl.res" RobotControl.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\RobotControl.exe.embed.manifest.res" .\Debug\RobotControl_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\RobotControl.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glaux.lib m5apiw32.lib Vci_w32.lib winmm.lib opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_objdetect243d.lib opencv_ts243d.lib opencv_video243d.lib /MANIFEST /ManifestFile:".\Debug\RobotControl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\robot\Desktop\RobotControl 7.22-手柄控制模型和机械臂--乐\Debug\RobotControl.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RobotControl.lib" /MACHINE:X86 .\Debug\RobotControl.res
+         .\Debug\RobotControl.exe.embed.manifest.res
+         .\Debug\AutoPlanSetDlg.obj
+         .\Debug\CtrlTab.obj
+         .\Debug\HandControlDlg.obj
+         .\Debug\InitHardware.obj
+         .\Debug\LinerPlanSetDlg.obj
+         .\Debug\MainFrm.obj
+         .\Debug\PathPlanDlg.obj
+         .\Debug\RobotControl.obj
+         .\Debug\RobotControlDoc.obj
+         .\Debug\RobotControlMultiDoc.obj
+         .\Debug\RobotControlView.obj
+         .\Debug\sidebar.obj
+         .\Debug\StdAfx.obj
+         PComm32.lib
+         Vci_w32.lib
+         m5apiw32.lib
+         Dynamic_spacerobot.lib
+       Manifest:
+         正在删除文件“.\Debug\RobotControl.exe.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\RobotControl.exe.embed.manifest" /manifest .\Debug\RobotControl.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\RobotControl.exe.embed.manifest.res" .\Debug\RobotControl_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\RobotControl.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glaux.lib m5apiw32.lib Vci_w32.lib winmm.lib opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_objdetect243d.lib opencv_ts243d.lib opencv_video243d.lib /MANIFEST /ManifestFile:".\Debug\RobotControl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\robot\Desktop\RobotControl 7.22-手柄控制模型和机械臂--乐\Debug\RobotControl.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RobotControl.lib" /MACHINE:X86 .\Debug\RobotControl.res
+         .\Debug\RobotControl.exe.embed.manifest.res
+         .\Debug\AutoPlanSetDlg.obj
+         .\Debug\CtrlTab.obj
+         .\Debug\HandControlDlg.obj
+         .\Debug\InitHardware.obj
+         .\Debug\LinerPlanSetDlg.obj
+         .\Debug\MainFrm.obj
+         .\Debug\PathPlanDlg.obj
+         .\Debug\RobotControl.obj
+         .\Debug\RobotControlDoc.obj
+         .\Debug\RobotControlMultiDoc.obj
+         .\Debug\RobotControlView.obj
+         .\Debug\sidebar.obj
+         .\Debug\StdAfx.obj
+         PComm32.lib
+         Vci_w32.lib
+         m5apiw32.lib
+         Dynamic_spacerobot.lib
+         RobotControl.vcxproj -> C:\Users\robot\Desktop\RobotControl 7.22-手柄控制模型和机械臂--乐\.\Debug\RobotControl.exe
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\RobotControl.bsc" .\Debug\AutoPlanSetDlg.sbr .\Debug\CtrlTab.sbr .\Debug\HandControlDlg.sbr .\Debug\InitHardware.sbr .\Debug\LinerPlanSetDlg.sbr .\Debug\MainFrm.sbr .\Debug\PathPlanDlg.sbr .\Debug\RobotControl.sbr .\Debug\RobotControlDoc.sbr .\Debug\RobotControlMultiDoc.sbr .\Debug\RobotControlView.sbr .\Debug\sidebar.sbr .\Debug\StdAfx.sbr
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\RobotControl.unsuccessfulbuild”。
+         正在对“.\Debug\RobotControl.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\robot\Desktop\RobotControl 7.22-手柄控制模型和机械臂--乐\RobotControl.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.79
